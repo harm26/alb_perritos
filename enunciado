@@ -1,0 +1,19 @@
+programa: Sistema de Gestión para registrar perros rescatados por un refugio de mascotas.
+
+Objetivos: Permitir al usuario de consola
+----Registrar un nuevo Perro rescatado.
+----Consultar la “base de datos” para acceder a los datos de cualquier Perro del refugio.
+                             Detalle de Implementación:
+                             
+---Al iniciar el programa, se deberá dar la bienvenida al usuario.
+---A continuación se le deberá preguntar si desea cargar un nuevo Perro.
+
+Todo Perro deberá tener los siguientes atributos: id, nombre, edad, peso, raza, fecha de última vacunación (se registrará un número entero para el año únicamente).
+Además, se deberá implementar un método para los Perros, que permita averiguar si sus vacunas están al día (la última dosis fue hace dos años o menos) o no (la última dosis fue hace más de dos años, o se desconoce cuándo fue).
+Luego de que el usuario ingrese todos los datos del perro, se deberá confirmar la carga mostrando un mensaje en consola - Por ejemplo: “Gracias, hemos registrado a….”
+Luego de mostrar los datos registrados del Perro, se deberá informar si su vacunas están al día o no - Por ejemplo: “Las vacunas de NOMBRE están al día”
+A continuación, se deberá permitir al usuario cargar un nuevo Perro, o finalizar la carga.
+Una vez que el usuario finaliza la carga (después de cargar uno, muchos, o ningún perro), se le deberá preguntar si desea consultar los datos de algún Perro del refugio. Si así lo desea,
+se le deberá preguntar el número de Perro
+se le mostrarán los datos correspondientes del Perro encontrado según al número ingresado.
+Al finalizar, se deberá mostrar un mensaje de despedida para el usuario.
